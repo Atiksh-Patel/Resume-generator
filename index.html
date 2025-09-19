@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Builder</title>
+  <!-- <link rel="stylesheet" href="E:\Projects\MP-1\MP-1.css" /> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resume-form">
+      <label>Full Name:</label>
+      <input type="text" name="name" placeholder="John Doe" />
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="john@example.com" />
+
+      <label>Phone:</label>
+      <input type="tel" name="phone" placeholder="+91 1234567890" />
+
+      <label>Education:</label>
+      <textarea name="education" placeholder="Your education background"></textarea>
+
+      <label>Experience:</label>
+      <textarea name="experience" placeholder="Your work experience"></textarea>
+
+      <label>Skills:</label>
+      <textarea name="skills" placeholder="Your skills"></textarea>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div class="resume-preview">
+      <h2>Resume Preview</h2>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> john@example.com</p>
+      <p><strong>Phone:</strong> +91 1234567890</p>
+      <p><strong>Education:</strong> Sample education info</p>
+      <p><strong>Experience:</strong> Sample experience info</p>
+      <p><strong>Skills:</strong> Sample skills info</p>
+    </div>
+  </div>
+</body>
+</html>
