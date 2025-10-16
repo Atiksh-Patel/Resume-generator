@@ -31,7 +31,7 @@ input, textarea {
 }
 
 button {
-  background-color: rgb(64, 10, 114);
+  background-color: rgb(48, 25, 52);
   color: white;
   padding: 12px;
   border: none;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(48, 7, 87);
+  background-color: rgb(20, 10, 20);
 }
 
 .resume{
@@ -49,3 +49,4 @@ button:hover {
   background-color: rgb(233, 236, 239);
   border-radius: 8px;
 }
+
