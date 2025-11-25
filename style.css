@@ -16,12 +16,12 @@ body {
   background:#121212 ;
   padding: 20px;
   border-radius: 8px;
-  color: beige;
+  color: whitesmoke;
 }
 
 h1, h2 {
   text-align: center;
-  color: beige;
+  color: whitesmoke;
 }
 
 form {
@@ -35,7 +35,7 @@ input, textarea {
   border: 1px solid black;
   border-radius: 4px;
   background-color: #1A1A1A;
-  color: aliceblue;
+  color: whitesmoke;
 }
 
 button {
@@ -57,5 +57,6 @@ button:hover {
   background-color: #1A1A1A;
   border-radius: 8px;
 }
+
 
 
